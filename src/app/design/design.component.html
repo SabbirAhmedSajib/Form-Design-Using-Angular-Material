@@ -1,0 +1,376 @@
+
+<div>
+    <div class="body">
+        <div class="header">
+            <div align=center>
+                <h2>Corporate Branch</h2>
+                <h4>Drawer  Relase From Customer</h4>
+            </div>           
+            <div align=right>
+                <button mat-raised-button color="primary">Execute</button>
+                <button mat-raised-button color="accent" style="margin-left: 5px;">Edit</button>
+                <button mat-raised-button color="warn" style="margin-left: 5px;">Search</button>
+                <button mat-raised-button color="primary" style="margin-left: 5px; margin-right: 100px;">Clear</button>
+                <button mat-raised-button color="warn" style="float: right; padding-right: 10px; margin-right: 20px;">logout</button>  
+            </div>         
+        </div>
+
+        <div class="form-container">
+            <form>
+                <mat-card>
+                    <mat-card-content>
+                            <div align=right class="col-50">
+                                <div>
+                                    <mat-label>Locker ID:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label>Locker ID</mat-label>
+                                        <select matNativeControl required>
+                                          <option ></option>
+                                          <option ></option>
+                                          <option ></option>
+                                          <option ></option>
+                                        </select>
+                                    </mat-form-field>
+                                </div>
+                            
+                                <div>
+                                    <mat-label>Drawer ID:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label>Drawer ID</mat-label>
+                                        <select matNativeControl required>
+                                          <option ></option>
+                                          <option ></option>
+                                          <option ></option>
+                                          <option ></option>
+                                        </select>
+                                    </mat-form-field>
+                                </div>
+                                
+                                <div>
+                                    <mat-label>A/C Number:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label>Account Number</mat-label>
+                                        <input matInput>
+                                    </mat-form-field>
+                                </div>
+        
+                                <div>
+                                    <mat-label>A/C Title:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label></mat-label>
+                                        <input matInput>
+                                    </mat-form-field>                       
+                                </div>
+                            
+                            
+                                <div>
+                                    <mat-label>Deposit Product:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label></mat-label>
+                                        <input matInput>
+                                    </mat-form-field>
+                                </div>
+        
+                                <div>
+                                    <mat-label>For Sale Value:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label></mat-label>
+                                        <input matInput>
+                                    </mat-form-field>
+                                </div>
+                            
+        
+                                <div>
+                                    <mat-label>Market Value:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label></mat-label>
+                                        <input matInput>
+                                    </mat-form-field>
+                                </div>
+        
+                                <div>
+                                    <mat-label>Caution Money:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <mat-label></mat-label>
+                                        <input matInput>
+                                    </mat-form-field>  
+                                </div>       
+                                
+                                <div>
+                                    <mat-label>Allocation Date:</mat-label>
+                                    <mat-form-field appearance="fill" appearance="outline">
+                                        <input matInput [matDatepicker]="picker">
+                                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                        <mat-datepicker #picker></mat-datepicker>
+                                    </mat-form-field>
+                                </div>
+                        </div>          
+        
+        
+                        <div align=right>
+                            <div>
+                                <mat-label>Customer Name:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+                        
+                            <div>
+                                <mat-label>Customer Type:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline" style="width: 65px; padding-right: 5px;">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                                <mat-form-field appearance="fill" appearance="outline" style="width: 220px; padding-right: 50px">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+                            <div>
+                                <mat-label>Address1:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+                        
+                            <div>
+                                <mat-label>Address2:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+                            
+                            <div>
+                                <mat-label>House:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+        
+                            <div>
+                                <mat-label>City Name:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>                       
+                            </div>
+                        
+                        
+                            <div>
+                                <mat-label>Phone No:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <mat-label></mat-label>
+                                    <input matInput>
+                                </mat-form-field>
+                            </div>
+        
+                            <div>
+                                <mat-label>Expire Date:</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <input matInput [matDatepicker]="picker1">
+                                    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker1></mat-datepicker>
+                                </mat-form-field>
+                            </div>
+        
+                            <div>
+                                <mat-label>Payment Status :</mat-label>
+                                <mat-form-field appearance="fill" appearance="outline">
+                                    <select matNativeControl required>
+                                        <option >Fully Paid</option>
+                                        <option >Due</option>
+                                        
+                                      </select>
+                                </mat-form-field>  
+                            </div> 
+                    </div>      
+                    </mat-card-content>
+                </mat-card>
+            </form> 
+
+        </div>
+    <!-- <form>
+        <mat-card>
+            <mat-card-content>
+                    <div align=right class="col-50">
+                        <div>
+                            <mat-label>Locker ID:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label>Locker ID</mat-label>
+                                <select matNativeControl required>
+                                  <option ></option>
+                                  <option ></option>
+                                  <option ></option>
+                                  <option ></option>
+                                </select>
+                            </mat-form-field>
+                        </div>
+                    
+                        <div>
+                            <mat-label>Drawer ID:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label>Drawer ID</mat-label>
+                                <select matNativeControl required>
+                                  <option ></option>
+                                  <option ></option>
+                                  <option ></option>
+                                  <option ></option>
+                                </select>
+                            </mat-form-field>
+                        </div>
+                        
+                        <div>
+                            <mat-label>A/C Number:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label>Account Number</mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+
+                        <div>
+                            <mat-label>A/C Title:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label></mat-label>
+                                <input matInput>
+                            </mat-form-field>                       
+                        </div>
+                    
+                    
+                        <div>
+                            <mat-label>Deposit Product:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label></mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+
+                        <div>
+                            <mat-label>For Sale Value:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label></mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+                    
+
+                        <div>
+                            <mat-label>Market Value:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label></mat-label>
+                                <input matInput>
+                            </mat-form-field>
+                        </div>
+
+                        <div>
+                            <mat-label>Caution Money:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <mat-label></mat-label>
+                                <input matInput>
+                            </mat-form-field>  
+                        </div>       
+                        
+                        <div>
+                            <mat-label>Allocation Date:</mat-label>
+                            <mat-form-field appearance="fill" appearance="outline">
+                                <input matInput [matDatepicker]="picker">
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                            </mat-form-field>
+                        </div>
+                </div>          
+
+
+                <div align=right>
+                    <div>
+                        <mat-label>Customer Name:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                
+                    <div>
+                        <mat-label>Customer Type:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline" style="width: 65px; padding-right: 5px;">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                        <mat-form-field appearance="fill" appearance="outline" style="width: 220px; padding-right: 50px">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <mat-label>Address1:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                
+                    <div>
+                        <mat-label>Address2:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                    
+                    <div>
+                        <mat-label>House:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+
+                    <div>
+                        <mat-label>City Name:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>                       
+                    </div>
+                
+                
+                    <div>
+                        <mat-label>Phone No:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <mat-label></mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+
+                    <div>
+                        <mat-label>Expire Date:</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <input matInput [matDatepicker]="picker1">
+                            <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                            <mat-datepicker #picker1></mat-datepicker>
+                        </mat-form-field>
+                    </div>
+
+                    <div>
+                        <mat-label>Payment Status :</mat-label>
+                        <mat-form-field appearance="fill" appearance="outline">
+                            <select matNativeControl required>
+                                <option >Fully Paid</option>
+                                <option >Due</option>
+                              </select>
+                        </mat-form-field>  
+                    </div> 
+            </div>      
+            </mat-card-content>
+        </mat-card>
+    </form>  -->
+    
+       
+    <div class="footer" align=center>
+        <p>Developed & Maintained by: ERA Infotech Ltd.</p>
+    </div>     
+</div>
+
